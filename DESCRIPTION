@@ -1,0 +1,37 @@
+Package: vibe
+Title: Visualization and Exploration of Bulk RNA Sequencing data
+Version: 0.12
+Authors@R: 
+    c(person("Saskia", "van Asten", , "saas@genmab.com", role = "aut"),
+    person("Indu", "Khatri", , "inkh@genmab.com", role = "aut"),
+    person("Francis", "Blokzijl", , "frbl@genmab.com", role = "aut"),
+    person("Leandro", "Moreno", "lemo@genmab.com", role = "edt"),
+    person("Iris", "Kolder", , "iko@genmab.com", role = c("aut","cre")))
+Description: The VIBE package is developed to easily visualize bulk RNAseq or EdgeSeq datasets, for which log2 tpm/cpm is already calculated elsewhere. This package includes functions to generate tables with summary statistics (mean/median), per-gene boxplots, scatterplots for co-expression, and heatmaps.
+License: GPL (>=3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+  ComplexHeatmap,
+  DT,
+  circlize,
+  dplyr,
+  ggplot2,
+  ggpp,
+  grid,
+  ggpubr,
+  ggsignif,
+  stringr,
+  tidyr,
+  tidyverse,
+  tibble,
+  stats,
+  qpdf
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+LazyData: true
+Depends: 
+    R (>= 2.10)
