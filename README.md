@@ -1,31 +1,25 @@
-# VIBE
+**VIBE: “Visualization and Exploration of Bulk mRNA Expression data**
 
-Visualization and Exploration of Bulk RNA Sequencing data package.
 
-# Installing the package
+VIBE revolutionizes the process of selecting tumor types for monoclonal and bispecific antibodies in the drug discovery journey. VIBE's intuitive user interface and interactive visualization empower researchers and clinicians to make data-driven decisions by exploring gene expression patterns in bulk RNA sequencing data.
 
-```
-devtools::install_git("https://datascience.genmab.net/gitlab/data-science-apps/vibe.git",
-                      credentials = git2r::cred_user_pass(rstudioapi::askForPassword("username"),
-                                                          rstudioapi::askForPassword("Password")))
-```
+With VIBE, researchers can delve into the expression of specific genes or gene pairs within large transcriptomic datasets such as the publicly available TCGA and GTEx databases as well as in house or commercially acquired datasets. Moreover, VIBE can compute composite scores for gene sets, such as pathway-associated genes, thereby offering a comprehensive overview of gene interaction and function within the pathway of interest. The resultant data can be visualized through intuitive boxplots and heatmaps, providing an accessible and informative platform for the exploration and interpretation of complex genomic data. 
 
-## Add your files
+***Install VIBE package***
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
-```
-cd existing_repo
-git remote add origin https://datascience.genmab.net/gitlab/data-science-apps/vibe.git
-git branch -M main
-git push -uf origin main
-```
+install.packages("devtools")  
+devtools::install_github("genmab/VIBE")
 
-## Authors
-Iris Kolder
-Indu Khatri
-Saskia van Asten
-Francis Blokzijl
-Leandro Moreno
+***Tutorial***
 
+Follow our vignettes to visualize your favourite datasets.
+
+***Authors***
+
+
+Indu Khatri (inkh@genmab.com)  
+Saskia van Asten (saas@genmab.com)  
+Francis Blokzijl (frbl@genmab.com)  
+Leandro Moreno (lemo@genmab.com)  
+Iris Kolder (iko@genmab.com)  
