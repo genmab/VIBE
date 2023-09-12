@@ -13,7 +13,7 @@ devtools::install_github("genmab/VIBE")
 
 ***Implementation***
 Implementation and overview of the statistics and visualization capabilities of the VIBE package. 
-![VIBE_Implementation_Overview](https://github.com/genmab/VIBE/assets/139466232/3f90dcad-7142-489e-ac60-c613ae4e3f3d)
+[VIBE_Implementation_Overview.pdf](https://github.com/genmab/VIBE/files/12583453/VIBE_Implementation_Overview.pdf)
 
 
 ***Tutorial***
