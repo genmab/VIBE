@@ -13,7 +13,9 @@ devtools::install_github("genmab/VIBE")
 
 ***Implementation***
 
-[VIBE_Implementation_Overview.pdf](https://github.com/genmab/VIBE/files/12583453/VIBE_Implementation_Overview.pdf)
+![VIBE_Implementation_Overview](https://github.com/genmab/VIBE/assets/139466232/33319a98-3493-44d7-845e-dd89993aebf5)
+
+
 
 Implementation and overview of the statistics and visualization capabilities of the VIBE package.
 (A) The df_harmonize() function harmonizes dummy data, creating a structured data frame with appropriate column names and format for VIBE functionalities. The harmonize_df_pathway() function combines genes into pathways for VIBE visuals. 
