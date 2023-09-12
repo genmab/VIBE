@@ -17,7 +17,9 @@ devtools::install_github("genmab/VIBE")
 
 
 
-Implementation and overview of the statistics and visualization capabilities of the VIBE package.
+***Implementation and overview of the statistics and visualization capabilities of the VIBE package.***
+
+
 (A) The df_harmonize() function harmonizes dummy data, creating a structured data frame with appropriate column names and format for VIBE functionalities. The harmonize_df_pathway() function combines genes into pathways for VIBE visuals. 
 (B) The get_thresholds() function defines gene-specific thresholds (mean, median or 75% quantile (Q3)) for expression analysis and indication selection. 
 (C) The calculate_percentage_per_quadrant() function extends get_thresholds() for dual-gene analysis, displaying the percentage of samples in quadrants, correlation, and statistical significance (Spearman correlation). 
