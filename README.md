@@ -11,15 +11,22 @@ With VIBE, researchers can delve into the expression of specific genes or gene p
 install.packages("devtools")  
 devtools::install_github("genmab/VIBE")
 
-***Tutorial***
+***Implementation***
+Implementation and overview of the statistics and visualization capabilities of the VIBE package. 
+![VIBE_Implementation_Overview](https://github.com/genmab/VIBE/assets/139466232/3f90dcad-7142-489e-ac60-c613ae4e3f3d)
 
+
+***Tutorial***
 Follow our vignettes to visualize your favourite datasets.
 
-***Authors***
 
-
+***Contributors***
 Indu Khatri (inkh@genmab.com)  
-Saskia van Asten (saas@genmab.com)  
-Francis Blokzijl (frbl@genmab.com)  
+Saskia van Asten (saas@genmab.com) 
 Leandro Moreno (lemo@genmab.com)  
+Francis Blokzijl (frbl@genmab.com)  
 Iris Kolder (iko@genmab.com)  
+
+
+***Contact***
+Iris Kolder (iko@genmab.com) 
